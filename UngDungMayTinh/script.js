@@ -23,7 +23,6 @@ function clearData() {
 
 function tinh() {
     result.innerHTML = eval(phepTinh);
-    console.log(phepTinh);
     phepTinh = "";
     hienThi = "";
 }
