@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Amount</th>
+            <th>From Currency</th>
+            <th>To Currency</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>
+                <input type="number" id="amount">
+            </td>
+            <td>
+                <select name="fromCurrency" id="fromCurrency">
+                    <option value="VND">VND</option>
+                    <option value="USD">USD</option>
+                    <option value="CNY">CNY</option>                    
+                </select>
+            </td>
+            <td>
+                <select name="toCurrency" id="toCurrency">
+                    <option value="USD">USD</option>
+                    <option value="VND">VND</option>
+                    <option value="CNY">CNY</option>                    
+                </select>
+            </td>
+            <td>
+                <button id="button">Convert</button>
+            </td>
+        </tr>       
+    </table>
+    <h2>Result: <span id="result"></span></h2>
+    <script src="script.js"></script>
+</body>
+</html>
