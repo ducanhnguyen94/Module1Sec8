@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td id="result" colspan="4">
+                0
+            </td>          
+        </tr>
+        <tr>
+            <td>
+                <button id="moNgoac" class="grey" value="(" onclick="hienThiPhepTinh(event)">(</button>
+            </td>
+            <td>
+                <button id="dongNgoac" class="grey" value=")" onclick="hienThiPhepTinh(event)">)</button>
+            </td>
+            <td>
+                <button id="phanTram" class="grey" value="%" onclick="hienThiPhepTinh(event)">%</button>
+            </td>
+            <td>
+                <button id="AC" class="grey" onclick="clearData()">AC</button>
+            </td>           
+        </tr>
+        <tr>
+            <td>
+                <button id="seven" class="light" value="7" onclick="hienThiPhepTinh(event)">7</button>
+            </td>
+            <td>
+                <button id="eight" class="light" value="8" onclick="hienThiPhepTinh(event)">8</button>
+            </td>
+            <td>
+                <button id="nine" class="light" value="9" onclick="hienThiPhepTinh(event)">9</button>
+            </td>
+            <td>
+                <button id="division" class="grey" value="/" onclick="hienThiPhepTinh(event)">÷</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button id="four" class="light" value="4" onclick="hienThiPhepTinh(event)">4</button>
+            </td>
+            <td>
+                <button id="five" class="light" value="5" onclick="hienThiPhepTinh(event)">5</button>
+            </td>
+            <td>
+                <button id="six" class="light" value="6" onclick="hienThiPhepTinh(event)">6</button>
+            </td>
+            <td>
+                <button id="multiply" class="grey" value="*" onclick="hienThiPhepTinh(event)">x</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button id="one" class="light" value="1" onclick="hienThiPhepTinh(event)">1</button>
+            </td>
+            <td>
+                <button id="two" class="light" value="2" onclick="hienThiPhepTinh(event)">2</button>
+            </td>
+            <td>
+                <button id="three" class="light" value="3" onclick="hienThiPhepTinh(event)">3</button>
+            </td>
+            <td>
+                <button id="subtract" class="grey" value="-" onclick="hienThiPhepTinh(event)">-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button id="zero" class="light" value="0" onclick="hienThiPhepTinh(event)">0</button>
+            </td>
+            <td>
+                <button id="dot" class="light" value="." onclick="hienThiPhepTinh(event)">.</button>
+            </td>
+            <td>
+                <button id="equal" class="blue" value="=" onclick="tinh()">=</button>
+            </td>
+            <td>
+                <button id="add" class="grey" value="+" onclick="hienThiPhepTinh(event)">+</button>
+            </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
